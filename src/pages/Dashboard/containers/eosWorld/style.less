@@ -1,0 +1,142 @@
+:global {
+  .ant-back-top {
+    bottom: 100px;
+  }
+  .ant-back-top-inner {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #071f2b;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .banner {
+    .title {
+      font-size: 72px;
+      font-weight: 800;
+    }
+    .eosworld {
+      font-size: 24px;
+      letter-spacing: 2px;
+    }
+    .location {
+      font-size: 18px;
+      letter-spacing: 5px;
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 30px;
+    }
+  }
+  .us {
+    background-color: #0d1f2a;
+    padding: 70px 10% 80px 10%;
+    text-align: center;
+    color: #fff;
+    .item {
+      margin-bottom: 150px;
+      .item-title {
+        font-size: 22px;
+        margin-bottom: 60px;
+        letter-spacing: 2.1px;
+        font-weight: 600;
+      }
+      img {
+        max-width: 80%;
+      }
+      .waleex-logo {
+        width: 200px;
+      }
+      .bihu-logo {
+        width: 120px;
+      }
+      .media-logo {
+        width: 80%;
+      }
+    }
+  }
+  .introduce {
+    background-color: #182a3b;
+    padding: 270px 0 330px 0;
+    text-align: center;
+    color: #ffffff;
+    p {
+      margin-bottom: 30px;
+      i {
+        font-size: 30px;
+        color: #fff;
+      }
+    }
+    pre {
+      font-size: 14px;
+      letter-spacing: 2px;
+      line-height: 1.67;
+      opacity: 0.8;
+    }
+  }
+  .world {
+    background-color: #0d1f2a;
+    padding: 80px 20%;
+    color: #fff;
+    .item {
+      margin-bottom: 150px;
+      .big-text {
+        font-size: 48px;
+        font-weight: 600;
+        color: #fff;
+        opacity: 0.8;
+        user-select: none;
+        span {
+          cursor: pointer;
+        }
+        i {
+          font-size: 22px;
+          line-height: 50px;
+          margin-left: 20px;
+          vertical-align: middle;
+          cursor: pointer;
+        }
+      }
+      .text {
+        line-height: 1.67;
+        color: #ffffff;
+        font-size: 14px;
+        letter-spacing: 2px;
+        margin: 20px 0 0 0;
+        opacity: 0.8;
+      }
+      .cityImg {
+        margin-top: 30px;
+        position: relative;
+        img {
+          width: 100%;
+        }
+        .cover {
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: 100%;
+          width: 100%;
+        }
+        .cover:hover {
+          background-color: rgba(0, 0, 0, 0.2);
+        }
+        .cover:hover::before {
+          display: block;
+          content: '';
+          border-width: 40px 40px 40px 50px;
+          border-style: solid;
+          border-color: transparent transparent transparent
+            rgba(255, 255, 255, 0.8);
+          /* 定位 */
+          position: absolute;
+          left: 46%;
+          top: 40%;
+        }
+      }
+    }
+  }
+}

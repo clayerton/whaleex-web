@@ -1,0 +1,52 @@
+:global {
+  .trade-menu-wrap {
+    display: flex;
+    width: calc(~'100% - 330px');
+    .info-wrap {
+      top: 0;
+      font-family: 'rRegular';
+      .coin-pair {
+        font-size: 18px;
+        position: relative;
+        top: 3px;
+      }
+      .symbol-tips {
+        color: #2a4452;
+        padding: 0 15px;
+        .bigNum {
+          color: #2a4452;
+          font-size: 16px;
+        }
+        .smallNum {
+          color: #2a4452;
+          font-size: 12px;
+          > span:first-child {
+            color: #bbbbbb;
+            padding-right: 10px;
+          }
+        }
+      }
+      .tips-wrap {
+        overflow: auto;
+        width: calc(~'100vw - 860px');
+        > div {
+          display: inline-block;
+        }
+        .tips {
+          padding: 0 10px;
+          > span {
+            display: block;
+          }
+          > span:first-child {
+            color: #99acb6;
+            font-size: 12px;
+          }
+          > span:last-child {
+            color: #2a4452;
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+}

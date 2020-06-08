@@ -1,0 +1,63 @@
+@media screen and (min-width: 1200px) and (min-height: 620px) {
+  .trade-wrap {
+    width: 100vw;
+    height: 100%;
+    > * {
+      box-sizing: border-box;
+      float: right;
+    }
+    .kline {
+      width: calc(~'100% - 650px');
+      height: 55vh;
+      float: left;
+      > div {
+        height: calc(~'100% - 20px');
+        width: calc(~'100% - 20px');
+        margin: 15px 5px 5px 15px;
+        padding: 0 5px;
+        background-color: #fff;
+        overflow: auto;
+      }
+    }
+    .order {
+      width: 650px;
+      height: calc(~'100vh - 413px');
+      > div {
+        width: calc(~'50% - 15px');
+        display: inline-block;
+        height: calc(~'100% - 20px');
+        vertical-align: top;
+        margin: 15px 5px 5px 5px;
+      }
+    }
+    .history {
+      width: calc(~'100% - 650px');
+      height: calc(~'45vh - 63px');
+      float: left;
+      .tab-table {
+        height: calc(~'100% - 20px');
+        width: calc(~'100% - 20px');
+        margin: 5px 5px 15px 15px;
+        overflow: hidden;
+      }
+      .ant-tabs {
+        .ant-tabs-bar {
+          margin-bottom: 0;
+        }
+        .ant-tabs-content {
+          // height: calc(~'40vh - 68px');
+        }
+      }
+    }
+    .operation {
+      width: 650px;
+      height: 350px;
+      .order-input-box {
+        height: calc(~'100% - 20px');
+        display: flex;
+        flex-direction: column;
+        margin: 5px 15px 15px 5px;
+      }
+    }
+  }
+}

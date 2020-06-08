@@ -1,0 +1,24 @@
+:global {
+  .verify-card {
+    float: left;
+    padding: 10px;
+    background-color: #f1f1f1;
+    margin: 5px;
+    height: 100px;
+    width: 200px;
+    ul {
+      margin: 0;
+      padding: 0;
+      li {
+        list-style: none;
+        & > span:nth-child(1) {
+          display: inline-block;
+          width: 60px;
+        }
+        & > span:nth-child(2) {
+          padding-left: 10px;
+        }
+      }
+    }
+  }
+}

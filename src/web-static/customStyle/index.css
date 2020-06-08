@@ -1,0 +1,93 @@
+.header-chart-panel .button.active-button,
+.header-chart-panel .button.tab-active {
+  border-bottom: 4px solid #5d97b6;
+  color: #2a4452;
+}
+.header-chart-panel .button {
+  color: #658697;
+  font-size: 12px;
+  padding: 6px 7px;
+  border: none;
+  cursor: pointer;
+}
+.header-chart-panel .button.active-button,
+.header-chart-panel .button :hover {
+  color: #2a4452 !important;
+  border: none !important;
+  border-bottom: 4px solid #5d97b6 !important;
+}
+.resolution-btn:hover {
+  color: #5d97b6 !important;
+  border: none !important;
+  border-bottom: 4px solid #5d97b6 !important;
+}
+.resolution-btn:hover:before {
+  border: none !important;
+}
+.active-button:hover {
+  color: #5d97b6 !important;
+  border: none !important;
+  border-bottom: 4px solid #5d97b6 !important;
+}
+.active-button:hover:before {
+  border: none !important;
+}
+.header-chart-panel .button :hover :before {
+  border: none;
+}
+.header-chart-panel .space-single {
+  margin: 8px 7px 8px 0;
+}
+.header-chart-panel .group {
+  color: #99acb6;
+}
+.feature-no-touch .header-chart-panel .button.resolution-btn:hover {
+  /* background-color: rgba(55, 152, 183, 0.6); */
+  /* color: #5d97b6; */
+}
+.tab-btn:hover {
+  color: #5d97b6 !important;
+  border: none !important;
+  border-bottom: 4px solid #5d97b6 !important;
+}
+.tab-btn:hover:before {
+  border: none !important;
+}
+.feature-no-touch .header-chart-panel .button.resolution-btn:hover :before {
+  border: none !important;
+}
+.feature-no-touch .header-chart-panel .button.resolution-btn:focus,
+.feature-no-touch .header-chart-panel .button.resolution-btn:active {
+  background-color: #fff;
+  /* color: #5d97b6;  */
+}
+.header-chart-panel .hide-it {
+  display: none;
+}
+.chart-page {
+  background: #fff;
+}
+.chart-page .chart-container {
+  border: none;
+}
+/* .header-chart-panel-content .left > .group:nth-last-child(1),
+.header-chart-panel-content .left > .group:nth-last-child(2)  */
+.header-chart-panel-content .right {
+  /* position: relative;
+  right: 45px; */
+}
+.header-chart-panel-content .left > .group:nth-child(1) {
+  float: right;
+  /* position: absolute;
+  right: 140px;
+  top: 4px; */
+}
+.header-chart-panel-content .left > .group:nth-child(2) {
+  float: right;
+  /* position: absolute;
+  right: 0;
+  top: 4px; */
+}
+.header-chart-panel .space-single {
+  margin-right: 0;
+}

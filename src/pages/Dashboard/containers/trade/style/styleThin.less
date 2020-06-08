@@ -1,0 +1,177 @@
+@media screen and (min-width: 760px) and (max-width: 1200px) and (min-height: 620px) {
+  div.trade-wrap {
+    overflow: auto;
+    div.kline {
+      height: 430px;
+    }
+    div.order {
+      width: 38%;
+      > div {
+        width: calc(~'100% - 17px');
+      }
+      .order-history {
+        position: relative;
+        top: 400px;
+        height: 400px;
+        width: calc(~'100vw - 20px');
+      }
+    }
+    div.operation {
+      width: 62%;
+      .order-input-box {
+        margin: 5px 10px 0px 10px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 760px) and (min-height: 620px) {
+  div.trade-wrap {
+    overflow: auto;
+    position: relative;
+    div.order-tool {
+    }
+    div.order {
+      width: calc(~'100% - 20px');
+      > div {
+        margin: 5px 5px 5px 10px;
+        width: 100%;
+      }
+      .order-history {
+        position: absolute;
+        top: 1554px;
+        height: 400px;
+        width: calc(~'100% - 20px');
+      }
+    }
+    div.kline {
+      height: 430px;
+    }
+    div.operation {
+      width: 100%;
+      .order-input-box {
+        height: calc(~'100% - 15px');
+        margin: 0px 10px 0px 10px;
+        .input-wrap {
+          .ant-input-number:after {
+            left: -40px;
+            top: 16px;
+            width: 40px;
+          }
+        }
+      }
+    }
+    div.history {
+    }
+  }
+}
+@media screen and (max-width: 1200px) and (min-height: 620px) {
+  .trade-wrap {
+    width: 100vw;
+    height: 100%;
+    overflow: auto;
+    > * {
+      box-sizing: border-box;
+    }
+    .kline {
+      width: 100%;
+      height: calc(~'100vh - 520px');
+      float: left;
+      min-height: 400px;
+      > div {
+        height: calc(~'100% - 20px');
+        width: calc(~'100% - 20px');
+        margin: 10px 10px 5px 10px;
+        padding: 0 5px;
+        background-color: #fff;
+        overflow: auto;
+      }
+    }
+    .order {
+      width: 55%;
+      height: 367px;
+      float: left;
+
+      > div {
+        width: calc(~'50% - 17px');
+        display: inline-block;
+        height: calc(~'100% - 20px');
+        vertical-align: top;
+        margin: 5px 5px 5px 10px;
+      }
+    }
+    .history {
+      width: 100%;
+      height: 400px;
+      float: left;
+      .ant-table-body {
+        max-height: 292px !important;
+      }
+      .tab-table {
+        height: calc(~'100% - 20px');
+        width: calc(~'100% - 20px');
+        margin: 0px 10px 10px 10px;
+      }
+      .ant-tabs {
+        .ant-tabs-bar {
+          margin-bottom: 0;
+        }
+        .ant-tabs-content {
+          // height: calc(~'40vh - 68px');
+        }
+      }
+    }
+    .operation {
+      width: 45%;
+      height: 367px;
+      float: left;
+      .order-input-box {
+        height: calc(~'100% - 20px');
+        display: flex;
+        flex-direction: column;
+        margin: 5px 10px 5px 5px;
+      }
+    }
+  }
+  // .trade-wrap {
+  //   width: 90vw;
+  //   max-width: 1200px;
+  //   min-width: 768px;
+  //   margin: 0 auto;
+  //   > * {
+  //     border: 1px solid #000;
+  //     box-sizing: border-box;
+  //     display: inline-block;
+  //     vertical-align: top;
+  //   }
+  //   .kline {
+  //     width: 100%;
+  //     height: 550px;
+  //   }
+  //   .order {
+  //     width: 50%;
+  //     height: 400px;
+  //     > div {
+  //       width: 50%;
+  //       display: inline-block;
+  //       height: 100%;
+  //     }
+  //   }
+  //   .history {
+  //     width: 100%;
+  //     height: 310px;
+  //     border: 1px solid #000;
+  //     .ant-tabs {
+  //       .ant-tabs-bar {
+  //         margin-bottom: 0;
+  //       }
+  //       .ant-tabs-content {
+  //         border: 1px solid #000 !important;
+  //       }
+  //     }
+  //   }
+  //   .operation {
+  //     width: 50%;
+  //     height: 400px;
+  //   }
+  // }
+}

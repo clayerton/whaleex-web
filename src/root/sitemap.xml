@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- XML文件需以utf-8编码-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<!--必填标签-->
+<url><loc>https://www.whaleex.com/index.html</loc><changefreq>daily</changefreq><priority>1</priority></url>
+<url><loc>https://www.whaleex.com/poster/index.html</loc><changefreq>daily</changefreq><priority>1</priority></url>
+<url><loc>https://www.whaleex.com/poster/interview.html</loc><changefreq>daily</changefreq><priority>1</priority></url>
+<url><loc>https://www.whaleex.com/poster/worldTour.html</loc><changefreq>daily</changefreq><priority>1</priority></url>
+<url><loc>https://www.whaleex.com/homePage</loc><changefreq>daily</changefreq><priority>0.5</priority></url>
+<url><loc>https://www.whaleex.com/download</loc><changefreq>daily</changefreq><priority>0.5</priority></url>
+<url><loc>https://www.whaleex.com/eosworld</loc><changefreq>daily</changefreq><priority>0.5</priority></url>
+<url><loc>https://www.whaleex.com/minePage</loc><changefreq>daily</changefreq><priority>0.5</priority></url>
+<url><loc>https://www.whaleex.com/market</loc><changefreq>daily</changefreq><priority>0.5</priority></url>
+<url><loc>https://www.whaleex.com/trade</loc><changefreq>daily</changefreq><priority>0.5</priority></url>
+<url><loc>https://www.whaleex.com/user</loc><changefreq>daily</changefreq><priority>0.5</priority></url>
+<url><loc>https://www.whaleex.com/login</loc><changefreq>daily</changefreq><priority>0.5</priority></url>
+<url><loc>https://www.whaleex.com/register</loc><changefreq>daily</changefreq><priority>0.5</priority></url>
+<url><loc>https://www.whaleex.com/forgetPwd</loc><changefreq>daily</changefreq><priority>0.5</priority></url>
+<!-- <url>
+    <loc>https://www.whaleex.com/index.html</loc>
+    <lastmod>2019-1-1</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+</url> -->
+</urlset>

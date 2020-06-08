@@ -1,0 +1,261 @@
+.header-logo.iconfont {
+  font-size: 40px;
+  position: relative;
+  top: -5px;
+  color: #4998b9;
+  &.white {
+    color: #fff;
+  }
+}
+.iconfont.icon-ArtboardCopy7 {
+  font-size: 12px;
+}
+.whaleex {
+  .ant-timeline {
+    .ant-timeline-item {
+      height: 70px;
+      &.active {
+        .ant-timeline-item-head {
+          background-color: rgb(93, 151, 182);
+        }
+      }
+      &.not-active {
+        .ant-timeline-item-head {
+          background-color: #eaeff2;
+        }
+      }
+    }
+    .ant-timeline-item-head {
+      width: 15px;
+      height: 15px;
+    }
+    .ant-timeline-item-content {
+      font-size: 13px;
+      padding-left: 27px;
+      color: #7d878e;
+    }
+    .ant-timeline-item-tail {
+      left: 6px;
+      border-left-width: 3px;
+    }
+  }
+  .ant-table-placeholder {
+    min-height: 100px;
+    line-height: 100px;
+    border-bottom: none;
+  }
+  .symbol-style {
+    span {
+      color: #99acb6;
+    }
+  }
+  .ant-tabs-bar {
+    margin-bottom: 0;
+  }
+  .ant-table {
+    font-size: 12px;
+    .ant-table-tbody {
+      color: #2a4452;
+    }
+  }
+}
+.text-no-wrap {
+  white-space: nowrap;
+}
+.no-margin {
+  margin: 0 !important;
+}
+.spin-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  &.height-auto {
+    height: auto;
+  }
+}
+.text-align-right {
+  text-align: right;
+}
+.ant-tabs-top {
+  .ant-tabs-ink-bar {
+    background-color: #5d97b6;
+    height: 4px;
+    border: 6px solid transparent;
+    border-bottom: none;
+    border-top: none;
+    bottom: 2px;
+    display: none !important;
+    background-clip: content-box;
+  }
+  .ant-tabs-nav-container {
+    font-size: 15px;
+  }
+  .ant-tabs-nav {
+    color: #5d97b6;
+    font-size: 14px;
+    padding-left: 13px;
+    margin: 8px 7px 8px 0;
+    .ant-tabs-tab {
+      padding: 10px 7px;
+      margin-right: 24px;
+    }
+  }
+  .ant-tabs-nav .ant-tabs-tab:hover {
+    color: #fff;
+    background-color: #5d97b6;
+  }
+  .ant-tabs-nav .ant-tabs-tab-active {
+    color: #2a4452;
+    background-color: #5d97b6;
+  }
+}
+.ant-tabs-top {
+  &.with-baseline {
+    .ant-tabs-bar {
+      border: none;
+    }
+    .ant-tabs-ink-bar {
+      display: block !important;
+    }
+    .ant-tabs-nav {
+      color: #99acb6;
+    }
+    .ant-tabs-nav .ant-tabs-tab:hover {
+      color: #5d97b6;
+      background-color: transparent;
+    }
+    .ant-tabs-nav .ant-tabs-tab-active {
+      color: #2a4452;
+      font-weight: 500;
+      background-color: transparent;
+    }
+  }
+  &.without-baseline {
+    .ant-tabs-bar {
+      border: none;
+      height: 60px;
+    }
+  }
+}
+.ant-spin {
+  .ant-spin-dot i {
+    background-color: rgb(110, 168, 199);
+  }
+}
+.ant-select-selection {
+  .ant-select-arrow:before {
+    content: '\E606';
+    transition: transform 0.3s;
+    font-size: 10px;
+  }
+}
+input.ant-input:hover {
+  border-color: rgb(155, 188, 206);
+}
+input.ant-input:focus {
+  border-color: rgb(155, 188, 206);
+  box-shadow: 0 0 0 2px rgba(110, 168, 199, 0.2);
+}
+span.ant-input-affix-wrapper:hover input.ant-input:not(.ant-input-disabled) {
+  border-color: rgb(155, 188, 206);
+}
+
+// 分页样式
+.ant-pagination {
+  .ant-pagination-item-active,
+  .ant-pagination-item-active:focus,
+  .ant-pagination-item-active:hover,
+  .ant-pagination-item:focus,
+  .ant-pagination-item:hover {
+    border-color: #478db2;
+    a {
+      color: #478db2;
+    }
+  }
+}
+//多选框样式
+.ant-checkbox-group {
+  .ant-checkbox {
+    &.ant-checkbox-checked .ant-checkbox-inner,
+    &.ant-checkbox-indeterminate .ant-checkbox-inner {
+      background-color: #5d97b6;
+      border-color: #5d97b6;
+    }
+  }
+  .ant-checkbox-wrapper:hover .ant-checkbox-inner,
+  .ant-checkbox:hover .ant-checkbox-inner,
+  .ant-checkbox-input:focus + .ant-checkbox-inner {
+    border-color: #5d97b6;
+  }
+}
+//开关按钮样式
+.ant-switch.ant-switch-checked {
+  background-color: #5d97b6;
+}
+//撤销modal
+.cancel-confirm.ant-modal {
+  .ant-modal-content {
+    overflow: hidden;
+  }
+  .ant-modal-body {
+    .ant-confirm-title {
+      display: none;
+    }
+  }
+}
+//wal通用modal
+.whaleex-common-modal.ant-modal {
+  &.transparent-bk {
+    .ant-modal-content {
+      overflow: hidden;
+      background-color: transparent;
+      box-shadow: none;
+    }
+  }
+  &.transparent-it {
+    //透明modal
+    background-image: radial-gradient(
+      rgba(255, 255, 255, 0.3),
+      transparent 60%
+    );
+    .ant-modal-content {
+      overflow: hidden;
+      background-color: transparent;
+      box-shadow: none;
+    }
+  }
+  .ant-modal-content {
+    overflow: hidden;
+  }
+  .ant-modal-body {
+    padding: 0;
+    .ant-confirm-title {
+      display: none;
+    }
+    .ant-confirm-content {
+      margin: 0;
+    }
+  }
+  .ant-confirm-btns {
+    display: none;
+  }
+  .confirm-btn {
+    width: 100%;
+    height: 50px;
+    &.no-border.ant-btn {
+      border: none;
+    }
+  }
+}
+
+.url-style {
+  color: rgba(135, 173, 195, 1);
+  cursor: pointer;
+  &.no-line {
+    text-decoration: none;
+  }
+  &.with-line {
+    text-decoration: underline;
+  }
+}

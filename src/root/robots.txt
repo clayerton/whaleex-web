@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:/static/node/news.html
+Sitemap: http://www.whaleex.com/sitemap.xml

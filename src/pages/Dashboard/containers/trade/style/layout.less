@@ -1,0 +1,109 @@
+:global {
+  .shadowBox {
+    .order-input-box,
+    .order-book,
+    .order-history,
+    &.kline > div,
+    > .tab-table {
+      border: 1px solid #dfecf3;
+      box-shadow: 0px 5px 12px 0px rgba(124, 166, 188, 0.3);
+    }
+    > .tab-table {
+    }
+  }
+  .trade-wrap {
+    background: #f6f8fa;
+    .order-book,
+    .order-history,
+    .order-input-box,
+    .tab-table {
+      background: #fff;
+    }
+  }
+  @import './styleNormal';
+  @import './styleFlat';
+  @import './styleThin';
+  // @media screen and (min-width: 768px) and (max-width: 1200px) {
+  //   .trade-wrap {
+  //     border: 1px solid #000;
+  //     width: 90vw;
+  //     max-width: 1200px;
+  //     min-width: 768px;
+  //     margin: 0 auto;
+  //     > * {
+  //       border: 1px solid #000;
+  //       box-sizing: border-box;
+  //       display: inline-block;
+  //       vertical-align: top;
+  //     }
+  //     .kline {
+  //       width: 100%;
+  //       height: 550px;
+  //     }
+  //     .order {
+  //       width: 50%;
+  //       height: 400px;
+  //       > div {
+  //         width: 50%;
+  //         display: inline-block;
+  //         height: 100%;
+  //       }
+  //     }
+  //     .history {
+  //       width: 100%;
+  //       height: 310px;
+  //       border: 1px solid #000;
+  //       .ant-tabs {
+  //         .ant-tabs-bar {
+  //           margin-bottom: 0;
+  //         }
+  //         .ant-tabs-content {
+  //           border: 1px solid #000 !important;
+  //         }
+  //       }
+  //     }
+  //     .operation {
+  //       width: 50%;
+  //       height: 400px;
+  //     }
+  //   }
+  // }
+  // @media screen and (max-width: 768px) {
+  //   .trade-wrap {
+  //     border: 1px solid #000;
+  //     width: 100vw;
+  //     max-width: 700px;
+  //     margin: 0 auto;
+  //     > * {
+  //       border: 1px solid #000;
+  //       box-sizing: border-box;
+  //       display: inline-block;
+  //       vertical-align: top;
+  //     }
+  //     .kline {
+  //       width: 100%;
+  //       height: 300px;
+  //     }
+  //     .order {
+  //       width: 45%;
+  //       height: 400px;
+  //       > div {
+  //         width: 100%;
+  //         display: inline-block;
+  //         height: 100%;
+  //       }
+  //       .order-history {
+  //         display: none;
+  //       }
+  //     }
+  //     .history {
+  //       width: 100%;
+  //       height: 310px;
+  //     }
+  //     .operation {
+  //       width: 55%;
+  //       height: 400px;
+  //     }
+  //   }
+  // }
+}

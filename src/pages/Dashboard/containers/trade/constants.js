@@ -1,0 +1,12 @@
+export const RESET_STATE = 'whaleex/pages/Trade/RESET_STATE';
+export const REFRESH_STATE = 'whaleex/pages/Trade/REFRESH_STATE';
+export const PONG_ORDER_BOOK = 'whaleex/pages/Trade/PONG_ORDER_BOOK';
+export const PONG_LATEST_TRADE = 'whaleex/pages/Trade/PONG_LATEST_TRADE';
+export const USER_ASSET = 'whaleex/pages/Trade/USER_ASSET';
+export const USER_FEE = 'whaleex/pages/Trade/USER_FEE';
+export const SUBMIT_DELEGATE = 'whaleex/pages/Trade/SUBMIT_DELEGATE';
+export const GET_DELEGATE = 'whaleex/pages/Trade/GET_DELEGATE';
+export const GET_SYMBOL_MARKET = 'whaleex/pages/Trade/GET_SYMBOL_MARKET';
+export const STOP_WS = 'whaleex/pages/Trade/STOP_WS';
+export const ASK_WS = 'whaleex/pages/Trade/ASK_WS';
+export const GET_IDS = 'whaleex/pages/Trade/GET_IDS';

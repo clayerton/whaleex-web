@@ -1,0 +1,19 @@
+{{PROJECT_NAME}}.deb:
+  name: "{{PROJECT_NAME}}"
+  install_path: /datayes/{{PROJECT_NAME}}
+
+  debian:
+    control:
+      maintainer: Jun Jing Zhang <junjing.zhang@datayes.com>
+      description: Datayes {{PROJECT_NAME}} project web resources
+
+  data:
+    - name: install framework templates
+      dir: src=./framework/docker/deploy dest=/datayes/templates
+    - name: install templates
+      dir: src=./docker/deploy dest=/datayes/templates
+    - name: install binary
+      dir: src=./build dest=/datayes/{{PROJECT_NAME}}
+
+  exclude:
+    - "*.env"

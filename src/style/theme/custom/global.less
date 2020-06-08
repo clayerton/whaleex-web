@@ -1,0 +1,153 @@
+.header-logo.iconfont {
+  color: #4998b9;
+  &.white {
+    color: #fff;
+  }
+}
+.whaleex {
+  .ant-table-placeholder {
+    background: transparent;
+    color: #658697;
+    border: none;
+  }
+  .symbol-style {
+    span {
+      color: #99acb6;
+    }
+  }
+  .ant-table {
+    font-size: 12px;
+    .ant-table-tbody {
+      color: #2a4452;
+    }
+  }
+}
+.ant-tabs-top {
+  .ant-tabs-ink-bar {
+    background-color: #5d97b6;
+    border: 6px solid transparent;
+    border-bottom: none;
+    border-top: none;
+    background-clip: content-box;
+  }
+  .ant-tabs-nav {
+    color: #5d97b6;
+  }
+  .ant-tabs-nav .ant-tabs-tab:hover {
+    color: #fff;
+    background-color: #5d97b6;
+  }
+  .ant-tabs-nav .ant-tabs-tab-active {
+    color: #2a4452;
+    background-color: #5d97b6;
+  }
+}
+.ant-tabs-top {
+  &.with-baseline {
+    .ant-tabs-bar {
+      border: none;
+    }
+    .ant-tabs-nav {
+      color: #99acb6;
+    }
+    .ant-tabs-nav .ant-tabs-tab:hover {
+      color: #5d97b6;
+      background-color: transparent;
+    }
+    .ant-tabs-nav .ant-tabs-tab-active {
+      color: #2a4452;
+      background-color: transparent;
+    }
+  }
+  &.without-baseline {
+    .ant-tabs-bar {
+      border: none;
+      height: 60px;
+    }
+  }
+}
+.ant-spin {
+  .ant-spin-dot i {
+    background-color: rgb(110, 168, 199);
+  }
+}
+input.ant-input:hover {
+  border-color: rgb(155, 188, 206);
+}
+input.ant-input:focus {
+  border-color: rgb(155, 188, 206);
+  box-shadow: 0 0 0 2px rgba(110, 168, 199, 0.2);
+}
+span.ant-input-affix-wrapper:hover input.ant-input:not(.ant-input-disabled) {
+  border-color: rgb(155, 188, 206);
+}
+
+// 分页样式
+.ant-pagination {
+  .ant-pagination-item-active,
+  .ant-pagination-item-active:focus,
+  .ant-pagination-item-active:hover,
+  .ant-pagination-item:focus,
+  .ant-pagination-item:hover {
+    border-color: #478db2;
+    a {
+      color: #478db2;
+    }
+  }
+}
+//多选框样式
+.ant-checkbox-group {
+  .ant-checkbox {
+    &.ant-checkbox-checked .ant-checkbox-inner,
+    &.ant-checkbox-indeterminate .ant-checkbox-inner {
+      background-color: #5d97b6;
+      border-color: #5d97b6;
+    }
+  }
+  .ant-checkbox-wrapper:hover .ant-checkbox-inner,
+  .ant-checkbox:hover .ant-checkbox-inner,
+  .ant-checkbox-input:focus + .ant-checkbox-inner {
+    border-color: #5d97b6;
+  }
+}
+//开关按钮样式
+.ant-switch.ant-switch-checked {
+  background-color: #5d97b6;
+}
+//disable 按钮 样式
+button.ant-btn-primary.disabled,
+button.ant-btn-primary[disabled],
+button.ant-btn-primary.disabled:hover,
+button.ant-btn-primary[disabled]:hover,
+button.ant-btn-primary.disabled:focus,
+button.ant-btn-primary[disabled]:focus,
+button.ant-btn-primary.disabled:active,
+button.ant-btn-primary[disabled]:active,
+button.ant-btn-primary.disabled.active,
+button.ant-btn-primary[disabled].active {
+  color: rgba(255, 255, 255, 1);
+  background-color: @wal-primaryBtn_disable;
+  border-color: @wal-primaryBtn_disable;
+}
+//wal通用modal
+.whaleex-common-modal.ant-modal {
+  &.transparent-it {
+    //透明modal
+    background-image: radial-gradient(
+      rgba(255, 255, 255, 0.3),
+      transparent 60%
+    );
+    .ant-modal-content {
+      background-color: transparent;
+      box-shadow: none;
+    }
+  }
+  .confirm-btn {
+    &.no-border.ant-btn {
+      border: none;
+    }
+  }
+}
+.url-style {
+  color: rgba(135, 173, 195, 1);
+}

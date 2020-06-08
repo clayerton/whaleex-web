@@ -1,0 +1,30 @@
+:global {
+  .c-list {
+  }
+  .c-item {
+    min-height: 30px;
+    &.multi-item {
+      display: flex;
+      & > div {
+        flex: 1;
+      }
+    }
+    & > div {
+      display: flex;
+    }
+    & > div > span:nth-child(1) {
+      padding-left: 10px;
+      display: inline-block;
+      width: 100px;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+    }
+    & > div > span:nth-child(2) {
+      padding-left: 10px;
+    }
+    & > div > span.hide {
+      display: none;
+    }
+  }
+}

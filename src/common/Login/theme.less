@@ -1,0 +1,106 @@
+@import '../../style/theme/variables';
+.countries-dropdown {
+  width: 200px !important;
+}
+.ant-select-selection-selected-value {
+  .countries-dropdown-selected {
+    display: none;
+  }
+}
+.login-wrap {
+  margin: 0 auto;
+  width: 540px;
+  .forgetPwd-btn {
+    float: right;
+    position: relative;
+    top: -24px;
+    cursor: pointer;
+    color: @wal-text_main;
+  }
+  .login-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0 20px;
+    img {
+      width: 150px;
+      position: relative;
+      top: -6px;
+      margin-right: 10px;
+    }
+    > span {
+      font-size: 20px;
+      color: #5d97b6;
+      letter-spacing: 1.5px;
+      padding-left: 20px;
+      border-left: 1px solid #eaeff2;
+    }
+  }
+  .login-content {
+    box-shadow: 0 5px 6px 0 rgba(124, 166, 188, 0.17),
+      2px 5px 4px 0 rgba(47, 88, 109, 0.06),
+      0 13px 20px 0 rgba(108, 162, 191, 0.15);
+    background-color: #ffffff;
+    border: solid 1px #dfecf3;
+    .input-field {
+      input {
+        width: 420px;
+        height: 40px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: rgba(234, 239, 242, 0.48);
+        border: solid 1px #eaeff2;
+      }
+    }
+    .err-border {
+      input {
+        width: 420px;
+        height: 40px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: rgba(234, 239, 242, 0.48);
+        border: 1px solid red;
+      }
+    }
+    .login-form-button {
+      width: 420px;
+      height: 40px;
+      margin-top: 10px;
+    }
+    .alert-location {
+      font-family: Roboto;
+      width: 425px;
+      background-color: #fff;
+      letter-spacing: 1px;
+      color: #f27762;
+      font-size: 12px;
+      text-align: center;
+      line-height: 34px;
+      margin: 0 auto;
+      margin-top: 20px;
+      padding: 5px 0px;
+    }
+    .login-form {
+      width: 420px;
+      margin: 0 auto;
+      margin-top: 30px;
+    }
+    .notice {
+      text-align: center;
+      line-height: 60px;
+      font-size: 13px;
+      color: #2a4452;
+      a {
+        color: #5d97b6;
+        cursor: pointer;
+      }
+    }
+  }
+  .input-field-withaddon {
+    input {
+      height: 40px;
+      background-color: rgba(234, 239, 242, 0.48);
+      border: solid 1px #eaeff2;
+    }
+  }
+}

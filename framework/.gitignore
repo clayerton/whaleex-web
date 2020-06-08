@@ -1,0 +1,17 @@
+# Don't check auto-generated stuff into git
+coverage
+build
+node_modules
+stats.json
+target
+
+# Cruft
+.DS_Store
+npm-debug.log
+.idea
+
+# generated with docker/docker-compose.yml.tpl
+docker-compose.yml
+package-lock.json
+# 编辑器设置
+.vscode
