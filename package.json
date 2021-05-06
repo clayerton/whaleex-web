@@ -257,7 +257,7 @@
     "express": "4.15.3",
     "fixed-data-table-2": "0.7.8",
     "fontfaceobserver": "2.0.9",
-    "highcharts": "5.0.7",
+    "highcharts": "9.0.0",
     "highcharts-more": "^0.1.2",
     "highcharts-treemap": "^0.1.2",
     "history": "4.6.3",

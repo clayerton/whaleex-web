@@ -5092,10 +5092,10 @@ highcharts-treemap@^0.1.2:
   resolved "http://registry.npm.taobao.org/highcharts-treemap/download/highcharts-treemap-0.1.7.tgz#d0868923e85f195ea2afc5a90da5d006187e5086"
   integrity sha1-0IaJI+hfGV6ir8WpDaXQBhh+UIY=
 
-highcharts@5.0.7:
-  version "5.0.7"
-  resolved "http://registry.npm.taobao.org/highcharts/download/highcharts-5.0.7.tgz#63ebeeee05acd56e3b2554b5b31a1224e1e05bf6"
-  integrity sha1-Y+vu7gWs1W47JVS1sxoSJOHgW/Y=
+highcharts@9.0.0:
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/highcharts/-/highcharts-9.0.0.tgz#2e5d382481f71c50ac7f086e7bdead394fab71d4"
+  integrity sha512-MJCtidFytGSQvsV3OEM+vFTLpjUcp7jmFpLn8h3oL4WKp0gxUOQg6Nw00sqMWGdiadst0gOZO4804zynTcYjZQ==
 
 highcharts@^5.0.0:
   version "5.0.15"
