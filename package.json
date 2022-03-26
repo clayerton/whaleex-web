@@ -271,7 +271,7 @@
     "lodash": "4.17.4",
     "long": "^4.0.0",
     "mathjs": "^4.4.2",
-    "minimist": "1.2.0",
+    "minimist": "1.2.6",
     "moment": "^2.19.1",
     "moment-timezone": "^0.5.21",
     "node-safe-filesaver": "^0.1.0",
