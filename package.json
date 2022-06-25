@@ -362,7 +362,7 @@
     "less-loader": "^4.0.5",
     "lint-staged": "3.5.1",
     "ngrok": "2.2.9",
-    "node-fetch": "^1.7.3",
+    "node-fetch": "^2.6.7",
     "node-plop": "0.7.0",
     "npm-run-all": "^4.1.2",
     "null-loader": "0.1.1",
