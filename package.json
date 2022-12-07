@@ -254,7 +254,7 @@
     "echarts": "^4.1.0",
     "element-closest": "^2.0.2",
     "eosjs-ecc": "^4.0.2",
-    "express": "4.15.3",
+    "express": "4.17.3",
     "fixed-data-table-2": "0.7.8",
     "fontfaceobserver": "2.0.9",
     "highcharts": "5.0.7",
