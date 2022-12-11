@@ -278,7 +278,7 @@
     "particles.js": "^2.0.0",
     "prop-types": "15.5.10",
     "qrcode": "^1.2.0",
-    "qs": "^6.5.2",
+    "qs": "^6.5.3",
     "query-string": "^5.0.1",
     "rc-queue-anim": "^1.6.7",
     "react": "15.6.1",
